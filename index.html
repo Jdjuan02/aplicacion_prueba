@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles-dashboard.css">
+</head>
+<body>
+	<div class="container-fluid bg-dark row fixed-top">
+		<nav class="row fixed-top">
+			<div class="col-lg-2 col-mg-3 bg-dark row align-items-center">
+				<img class= "img-fluid align-items-center" src="img/logo.png" class="d-block w-100" alt="...">
+			</div>
+			<div class="col-lg-10 col-mg-9 p-0 bg-dark">
+				<ul class="row align-items-end justify-content-end nav-menu">
+					<li class="nav-menu-item">
+						<a href="inicio.php" class="nav-menu-link nav-link texto">Inicio</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="modules/adquisiciones/nueva_adq.html"  target="area-trabajo" class="nav-menu-link nav-link texto">Inventario</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="caja.php" class="nav-menu-link nav-link texto">Caja</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href= "modules/productos/nuev_prod.html" class="nav-menu-link nav-link texto">Productos</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="contacto.php" class="nav-menu-link nav-link texto">Contacto</a>
+					</li>
+					<li class="nav-menu-item  dropdown">
+						<a class="nav-link dropdown-toggle nav-menu-link nav-link texto" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+								Ajustes
+						</a>
+						<div class="dropdown-menu dropdown-menu-right">
+							<a class="dropdown-item" href="#">Perfil</a>
+							<a class="dropdown-item" href="#">cambiar contraseña</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item text-danger" href="inicio.html" >Cerrar sesión</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<!-- Principal -->	
+	<!-- Panel lateral -->
+	<section class="row">      
+		<!-- Carga de paginas -->
+		<!-- <iframe src="/modules/adquisiciones/nueva_adq.html" name="nueva-adqui"></iframe> -->
+		
+	</section>
+
+	<!-- area de trabajo -->
+    <main>
+      <!-- caega de paginas -->
+      <iframe src="area-trabajo" src="modules/adquisiciones/nueva_adq.html" ></iframe>
+    </main>
+
+	<footer>
+		<div class="bg-dark ">
+			<p class="text-light text-center texto">Calle 9 bis No 19A - 38</p>
+			<p class="text-light text-center texto p-0">312 4282020</p>
+			<p class="text-light text-center texto">Bogota DC</p>
+		</div>
+		
+	</footer>
+	<script src="js/jquery.slim.min.js"></script>	
+	<script src="js/popper.min.js"></script>	
+	<script src="js/bootstrap.js"></script>	
+
+	
+</body>
+</html>
